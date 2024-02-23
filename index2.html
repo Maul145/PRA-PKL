@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    .divpractice{
+        width: 900px;
+        height: 500px;
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin: 0px auto 0pc auto;
+    }
+    
+    .divpractice > .first {
+        width: 40%;
+        height: 200px;
+        background-color: aquamarine;
+    }
+
+    .divpractice > .second {
+        width: 40%;
+        height: 300px;
+        background-color: rgb(193, 247, 247);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .divpractice > .second > button {
+        margin-right: 5px;
+        padding: 10px;
+    }
+
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    function hey() {
+        alert('hello!')
+    }
+</script>
+<body>
+    <h1> My Review Page</h1>
+    <h2>this is Subtitle</h2>
+    <input type="text" name="#" id="#">
+    <div class="divpractice">
+        <div class="first"></div>
+        <div class="second" id="second-box">
+            <button onclick="hey()"> button first</button>
+
+            <button> button second</button>
+            <button> button third</button>
+        </div>
+    </div>
+</body>
+</html>
